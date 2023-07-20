@@ -5,7 +5,7 @@ import nltk
 import sklearn
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
-nltk.download('punkt')
+nltk.download()
 ps = PorterStemmer()
 
 def trans_text(txt):
